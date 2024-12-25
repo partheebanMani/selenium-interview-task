@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="icici test cases" parallel="methods" thread-count="1" >
+    <test name="iciic testing">
+        
+        <classes>
+            <class name="learn.ICICILamboardTest"/>
+        </classes>
+    </test>
+
+</suite>

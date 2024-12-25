@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All test cases">
+    
+    <suite-files>
+        <suite-file path="Icicitestcases_testng.xml"/>
+        <suite-file path="DynamciDropDown.xml"/>
+    </suite-files>
+</suite>
