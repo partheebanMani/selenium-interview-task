@@ -44,10 +44,6 @@ public class DynamicDropDownTest {
 
             webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.id(fromCityId)));
 
-            JavascriptExecutor js = (JavascriptExecutor) webDriver;
-            js.executeScript("arguments[0].removeAttribute('readonly');", webDriver.findElement(By.id("fromCity")));
-
-
             webDriverWait.until(ExpectedConditions.elementToBeClickable(By.id(fromCityId))).click();
             webDriver.findElement(By.id(fromCityId)).sendKeys(fromLocation);
 
